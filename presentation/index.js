@@ -224,7 +224,7 @@ export default class Presentation extends React.Component {
               The Ugly
             </Heading>
             <br />
-            <Code>
+            <Code style={{ color: blue }}>
 {`
 li .myClass #foo .yourClass > p {
   color: blue !important;
